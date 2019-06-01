@@ -1,0 +1,9 @@
+.vscode/**
+test/**
+src/**
+**/*.map
+.gitignore
+.editorconfig
+.npmrc
+tsconfig.json
+README.md

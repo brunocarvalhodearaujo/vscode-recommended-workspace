@@ -4,8 +4,12 @@
   "description": "",
   "version": "0.0.1",
   "publisher": "brunocarvalhodearaujo",
-  "author": "",
+  "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunocarvalhodearaujo/vscode-recommended-setup.git"
+  },
   "engines": {
     "vscode": "^1.34.0"
   },
@@ -13,13 +17,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.helloWorld"
+    "onCommand:extension.setConfigurations"
   ],
   "contributes": {
     "commands": [
       {
-        "command": "extension.helloWorld",
-        "title": "Set recommended configurations"
+        "command": "extension.setConfigurations",
+        "title": "Set editor recommended configurations"
       }
     ],
     "snippets": [
@@ -55,10 +59,10 @@
     "postbuild": "vsce package"
   },
   "devDependencies": {
-    "@types/node": "^12.0.4",
-    "@types/vscode": "^1.34.0",
-    "typescript": "^3.5.1",
+    "@types/node": "12.0.4",
+    "@types/vscode": "1.34.0",
+    "typescript": "3.5.1",
     "vsce": "1.62.0",
-    "vscode": "^1.1.34"
+    "vscode": "1.1.34"
   }
 }

@@ -2,21 +2,19 @@ import * as console from 'console'
 import * as vscode from 'vscode'
 import * as settings from './settings.json'
 
-class ConfigurationService {
-  /**
-   * get configuration of vscode
-   */
-  getConfig (section?: string): vscode.WorkspaceConfiguration {
-    return vscode.workspace.getConfiguration(section)
-  }
+/**
+ * get workspace configuration of vscode
+ */
+const getWorkspaceConfiguration = (section?: string): vscode.WorkspaceConfiguration => {
+  return vscode.workspace.getConfiguration(section)
 }
 
 const setConfigurations = async () => {
-  const service = new ConfigurationService()
-
   try {
+    vscode.window.showInformationMessage('Starting apply recommended configurations')
+
     for (const section of Object.keys(settings)) {
-      await service.getConfig().update(section, settings[section], true)
+      await getWorkspaceConfiguration().update(section, settings[section], true)
     }
 
     vscode.window.showInformationMessage('Success on apply recommended configurations!')
@@ -26,7 +24,7 @@ const setConfigurations = async () => {
 }
 
 export async function activate (context: vscode.ExtensionContext) {
-  const disposable = vscode.commands.registerCommand('extension.helloWorld', setConfigurations)
+  const disposable = vscode.commands.registerCommand('extension.setConfigurations', setConfigurations)
 
   context.subscriptions.push(disposable)
 }
