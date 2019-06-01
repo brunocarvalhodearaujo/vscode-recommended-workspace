@@ -1,0 +1,18 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# folders
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+nbproject
+node_modules
+database/*
+
+# files
+*.DS_Store
+*._*
+*.env
+*.log
+*.lock

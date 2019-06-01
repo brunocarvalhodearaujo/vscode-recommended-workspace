@@ -1,0 +1,38 @@
+{
+  "React Native base component": {
+    "prefix": "react-native-base-component",
+    "description": "create an basic react native class component",
+    "body": [
+      "/**",
+      " * Copyright $CURRENT_YEAR-present ${1:Bruno Carvalho de Araujo}.",
+      " * This source code is licensed under the ${2|proprietary,MIT|} license found in the",
+      " * LICENSE file in the root directory of this source tree.",
+      " */\n",
+      "import React, { ${3|Component,PureComponent|}, ReactNode } from 'react'",
+      "import PropTypes from 'prop-types'",
+      "import { StyleSheet, Text, View } from 'react-native'\n$0",
+      "type Props = {\n\tchildren: ReactNode\n}\n$0",
+      "type State = {}\n$0",
+      "export default class ${4:$TM_FILENAME_BASE} extends $3<Props, State> {",
+      "\tstatic propTypes = {\n\t\tchildren: PropTypes.element\n\t}\n$0",
+      "\tstatic defaultProps = {}\n$0",
+      "\trender () {",
+      "\t\treturn (",
+      "\t\t\t<View style={styles.container}>",
+      "\t\t\t\t<Text>Open up $4.js to start working on your app!</Text>",
+      "\t\t\t</View>",
+      "\t\t)",
+      "\t}",
+      "}\n$0",
+      "const styles = StyleSheet.create({",
+      "\tcontainer: {",
+      "\t\tflex: 1,",
+      "\t\tbackgroundColor: '#fff',",
+      "\t\talignItems: 'center',",
+      "\t\tjustifyContent: 'center',",
+      "\t}",
+      "})",
+      "$0"
+    ]
+  }
+}
