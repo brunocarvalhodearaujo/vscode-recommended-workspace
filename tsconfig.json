@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+		"target": "es6",
+		"outDir": "build",
+		"sourceMap": true,
+		"strict": true,
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

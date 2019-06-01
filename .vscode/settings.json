@@ -1,0 +1,85 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "onFocusChange",
+  "workbench.editor.enablePreview": false,
+  "explorer.openEditors.visible": 0,
+  "debug.inlineValues": true,
+  "terminal.integrated.fontSize": 12,
+  "standard.options": {
+    "plugins": [
+      "flowtype",
+      "import",
+      "promise"
+    ],
+    "parser": "babel-eslint",
+    "envs": [
+      "jest",
+      "es6",
+      "node",
+      "browser"
+    ],
+    "globals": [
+      "__DEV__",
+      "ReturnType",
+      "Partial",
+      "ReactComponent",
+      "ReactElement",
+      "SyntheticEvent",
+      "SyntheticClipboardEvent",
+      "SyntheticCompositionEvent",
+      "SyntheticInputEvent",
+      "SyntheticUIEvent",
+      "SyntheticFocusEvent",
+      "SyntheticKeyboardEvent",
+      "SyntheticMouseEvent",
+      "SyntheticDragEvent",
+      "SyntheticWheelEvent",
+      "SyntheticTouchEvent"
+    ]
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "workbench.statusBar.visible": true,
+  "git.ignoreLegacyWarning": true,
+  "gitlens.advanced.messages": {
+    "suppressGitVersionWarning": true
+  },
+  "jsannotations.fontStyle": "normal",
+  "jsannotations.hideIfEqual": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "files.associations": {
+    "yarn.lock": "yaml",
+    "*.prisma": "graphql"
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "window.titleBarStyle": "custom",
+  "todo-tree.excludeGlobs": [
+    "**/node_modules"
+  ],
+  "breadcrumbs.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "todo-tree.defaultHighlight": {
+    "foreground": "green",
+    "type": "none"
+  },
+  "todo-tree.customHighlight": {
+    "TODO": {},
+    "FIXME": {}
+  },
+  "jsannotations.hideDiagnostics": true,
+  "gitflow.deleteBranchOnFinish": false,
+  "gitflow.deleteRemoteBranches": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 10.8,
+  "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "workbench.activityBar.visible": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.validate.enable": false
+}
