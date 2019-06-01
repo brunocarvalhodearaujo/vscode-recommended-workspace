@@ -22,6 +22,7 @@
     "Other"
   ],
   "activationEvents": [
+    "workspaceContains:package.json",
     "onCommand:extension.setConfigurations",
     "onCommand:extension.installReactMostUsedDependencies"
   ],
