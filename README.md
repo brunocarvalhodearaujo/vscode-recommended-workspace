@@ -19,3 +19,4 @@ $ npm i -g standard eslint@3.x babel-eslint@7 eslint-plugin-flowtype eslint-plug
 
 - [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)
 - [plugin helloworld-sample](https://github.com/microsoft/vscode-extension-samples/tree/master/helloworld-sample)
+- [VS Code API](https://code.visualstudio.com/api/references/vscode-api)

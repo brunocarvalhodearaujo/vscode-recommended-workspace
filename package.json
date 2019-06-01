@@ -22,13 +22,18 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.setConfigurations"
+    "onCommand:extension.setConfigurations",
+    "onCommand:extension.installReactMostUsedDependencies"
   ],
   "contributes": {
     "commands": [
       {
         "command": "extension.setConfigurations",
         "title": "Recommended Workspace: Set editor recommended configurations"
+      },
+      {
+        "command": "extension.installReactMostUsedDependencies",
+        "title": "Recommended Workspace: Install React.js most used dependencies"
       }
     ],
     "snippets": [
@@ -60,7 +65,8 @@
   ],
   "main": "./build/extension.js",
   "scripts": {
-    "postversion": "tsc -p ./ && vsce package"
+    "build": "tsc -p ./",
+    "postversion": "npm run build && vsce package"
   },
   "devDependencies": {
     "@types/node": "12.0.4",
