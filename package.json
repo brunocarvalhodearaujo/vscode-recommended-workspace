@@ -1,8 +1,13 @@
 {
-  "name": "vscode-javascript-advanced-editor",
-  "displayName": "VSCode Javascript advanced editor",
-  "description": "",
+  "name": "vscode-recommended-workspace",
+  "displayName": "Recommended Workspace",
+  "description": "A extension for create a recommended javascript development workspace",
   "version": "0.0.2",
+  "keywords": [
+    "snippets",
+    "settings",
+    "extensions"
+  ],
   "publisher": "brunocarvalhodearaujo",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "license": "proprietary",
@@ -23,7 +28,7 @@
     "commands": [
       {
         "command": "extension.setConfigurations",
-        "title": "Set editor recommended configurations"
+        "title": "Recommended Workspace: Set editor recommended configurations"
       }
     ],
     "snippets": [
