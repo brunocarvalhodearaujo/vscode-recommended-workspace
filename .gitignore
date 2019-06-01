@@ -15,4 +15,4 @@ build
 *._*
 *.env
 *.log
-*.lock
+*.vsix

@@ -13,15 +13,15 @@
     "Other"
   ],
   "activationEvents": [
-		"onCommand:extension.helloWorld"
-	],
+    "onCommand:extension.helloWorld"
+  ],
   "contributes": {
     "commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Set recommended configurations"
-			}
-		],
+      {
+        "command": "extension.helloWorld",
+        "title": "Set recommended configurations"
+      }
+    ],
     "snippets": [
       {
         "language": "javascript",
@@ -51,12 +51,14 @@
   ],
   "main": "./build/extension.js",
   "scripts": {
-    "build": "tsc -p ./"
+    "build": "tsc -p ./",
+    "postbuild": "vsce package"
   },
   "devDependencies": {
     "@types/node": "^12.0.4",
     "@types/vscode": "^1.34.0",
     "typescript": "^3.5.1",
+    "vsce": "1.62.0",
     "vscode": "^1.1.34"
   }
 }
