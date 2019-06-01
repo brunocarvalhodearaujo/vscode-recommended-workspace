@@ -1,6 +1,6 @@
 {
-  "name": "vscode-react-snippets",
-  "displayName": "VScode React Snippets",
+  "name": "vscode-javascript-advanced-editor",
+  "displayName": "VSCode Javascript advanced editor",
   "description": "",
 	"version": "0.0.1",
 	"publisher": "brunocarvalhodearaujo",
@@ -10,14 +10,46 @@
 		"vscode": "^1.28.0"
 	},
 	"categories": [
-		"Snippets"
+    "Snippets"
 	],
 	"contributes": {
+    "configuration": {
+      "workbench.iconTheme": "material-icon-theme",
+      "files.autoSave": "onFocusChange",
+      "workbench.editor.enablePreview": false,
+      "explorer.openEditors.visible": 0,
+      "debug.inlineValues": true,
+      "editor.minimap.enabled": false,
+      "markdown.preview.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
+      "editor.fontFamily": "Consolas, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+      "breadcrumbs.enabled": true,
+      "workbench.editor.highlightModifiedTabs": true,
+      "editor.rulers": [
+        80,
+        120
+      ]
+    },
 		"snippets": [
 			{
 				"language": "javascript",
-				"path": "./src/snippets.json"
+				"path": "./snippets/javascript.json"
 			}
 		]
-	}
+	},
+	"extensionDependencies": [
+		"chenxsan.vscode-standardjs",
+    "coenraads.bracket-pair-colorizer",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-rename-tag",
+    "jpoissonnier.vscode-styled-components",
+    "lannonbr.vscode-js-annotations",
+    "msjsdiag.debugger-for-chrome",
+    "peterjausovec.vscode-docker",
+    "pflannery.vscode-versionlens",
+    "pkief.material-icon-theme",
+    "planbcoding.vscode-react-refactor",
+    "vector-of-bool.gitflow",
+    "wayou.vscode-todo-highlight"
+	]
 }
