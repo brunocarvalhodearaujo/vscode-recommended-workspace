@@ -62,5 +62,7 @@
   "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "workbench.activityBar.visible": true,
   "javascript.implicitProjectConfig.checkJs": true,
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "terminal.integrated.fontSize": 10.9,
+  "editor.fontSize": 9.8
 }
