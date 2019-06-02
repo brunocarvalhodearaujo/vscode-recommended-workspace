@@ -2,7 +2,7 @@
   "name": "vscode-recommended-workspace",
   "displayName": "Recommended Workspace",
   "description": "A extension for create a recommended javascript development workspace",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "snippets",
     "settings",
