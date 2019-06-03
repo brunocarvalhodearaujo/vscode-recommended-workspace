@@ -6,7 +6,15 @@ VSCode recommended Workspace
 1. Open terminal and write:
 
 ````sh
-$ npm i -g standard eslint@3.x babel-eslint@7 eslint-plugin-flowtype eslint-plugin-import eslint-plugin-react eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
+$ npm i -g standard \
+  eslint@3.x \
+  babel-eslint@7 \
+  eslint-plugin-flowtype
+  eslint-plugin-import \
+  eslint-plugin-react \
+  eslint-plugin-node \
+  eslint-plugin-promise \
+  eslint-plugin-standard
 ````
 
 2. Open VsCode and write in command pallete:
