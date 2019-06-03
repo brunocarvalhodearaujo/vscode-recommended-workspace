@@ -11,6 +11,18 @@
   "publisher": "brunocarvalhodearaujo",
   "author": "Bruno Carvalho de Araujo <brunocarvalhodearaujo@gmail.com>",
   "license": "proprietary",
+  "main": "./build/extension.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "postversion": "npm run build && vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.4",
+    "@types/vscode": "1.34.0",
+    "typescript": "3.5.1",
+    "vsce": "1.62.0",
+    "vscode": "1.1.34"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/brunocarvalhodearaujo/vscode-recommended-setup.git"
@@ -63,17 +75,5 @@
     "planbcoding.vscode-react-refactor",
     "vector-of-bool.gitflow",
     "wayou.vscode-todo-highlight"
-  ],
-  "main": "./build/extension.js",
-  "scripts": {
-    "build": "tsc -p ./",
-    "postversion": "npm run build && vsce package"
-  },
-  "devDependencies": {
-    "@types/node": "12.0.4",
-    "@types/vscode": "1.34.0",
-    "typescript": "3.5.1",
-    "vsce": "1.62.0",
-    "vscode": "1.1.34"
-  }
+  ]
 }

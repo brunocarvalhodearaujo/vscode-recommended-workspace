@@ -8,7 +8,9 @@ export default async function setConfigurations () {
     vscode.window.showInformationMessage('Starting apply recommended configurations')
 
     for (const section of Object.keys(settings)) {
-      await getWorkspaceConfiguration().update(section, settings[section], true)
+      if (getWorkspaceConfiguration().inspect(section) !== undefined) {
+        await getWorkspaceConfiguration().update(section, settings[section], true)
+      }
     }
 
     vscode.window.showInformationMessage('Success on apply recommended configurations!')
