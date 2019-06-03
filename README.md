@@ -1,9 +1,10 @@
 VSCode recommended Workspace
 ============================
 
-## Setup
+## Quick start
 
-1. Open terminal and write:
+1. Install `Node.js`
+2. Open terminal and run this command:
 
 ````sh
 $ npm i -g standard \
@@ -17,10 +18,14 @@ $ npm i -g standard \
   eslint-plugin-standard
 ````
 
-2. Open VsCode and write in command pallete:
+## Commands
 
 ````
 > Recommended Workspace: Set editor recommended configurations
+````
+
+````
+> Recommended Workspace: Install React.js most used dependencies
 ````
 
 ## References

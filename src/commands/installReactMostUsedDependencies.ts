@@ -5,6 +5,7 @@ export default async function installReactMostUsedDependencies () {
     'redux',
     'react-redux',
     'redux-thunk',
+    'react-router-dom',
     'styled-components'
   ].join(' ')
 
