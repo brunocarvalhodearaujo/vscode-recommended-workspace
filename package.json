@@ -74,6 +74,7 @@
     "pkief.material-icon-theme",
     "planbcoding.vscode-react-refactor",
     "vector-of-bool.gitflow",
-    "wayou.vscode-todo-highlight"
+    "wayou.vscode-todo-highlight",
+    "ibm.output-colorizer"
   ]
 }
