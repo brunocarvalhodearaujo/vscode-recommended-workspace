@@ -1,4 +1,18 @@
 {
+  "License": {
+    "prefix": "license",
+    "scope": "javascript,javascriptreact",
+    "description": "create an basic license comment",
+    "body": [
+      "/**",
+      " * Copyright (c) $CURRENT_YEAR-present, ${1:Bruno Carvalho de Araujo}.",
+      " * All rights reserved.",
+      " *",
+      " * This source code is licensed under the license found in the LICENSE file in",
+      " * the root directory of this source tree.",
+      " */\n$0"
+    ]
+  },
   "React base class component": {
     "prefix": "react-base-component",
     "scope": "javascript,javascriptreact",
