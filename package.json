@@ -75,6 +75,7 @@
     "planbcoding.vscode-react-refactor",
     "vector-of-bool.gitflow",
     "wayou.vscode-todo-highlight",
-    "ibm.output-colorizer"
+    "ibm.output-colorizer",
+    "kumar-harsh.graphql-for-vscode"
   ]
 }
