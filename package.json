@@ -76,6 +76,7 @@
     "vector-of-bool.gitflow",
     "wayou.vscode-todo-highlight",
     "ibm.output-colorizer",
-    "kumar-harsh.graphql-for-vscode"
+    "kumar-harsh.graphql-for-vscode",
+    "rtbenfield.vscode-jest-test-adapter"
   ]
 }
