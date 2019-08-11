@@ -261,5 +261,36 @@
       "export default combineReducers({ isFetching })",
       "$0"
     ]
-  }
+  },
+  "React Redux connect": {
+    "prefix": "react-redux-connect",
+    "scope": "javascript,javascriptreact",
+    "description": "create connection between react and redux",
+    "body": [
+      "/**",
+      " * Copyright (c) $CURRENT_YEAR-present, ${1:Bruno Carvalho de Araujo}.",
+      " * All rights reserved.",
+      " *",
+      " * This source code is licensed under the license found in the LICENSE file in",
+      " * the root directory of this source tree.",
+      " */\n",
+      "import { connect } from 'react-redux'",
+      "import { bindActionCreators, type Dispatch } from 'redux'",
+      "import ${2:$TM_FILENAME_BASE}, { type Props as $2Props } from './$2'",
+      "import { type State, type MergeMapAndDispatchProps } from '${3:../../store}'\n",
+      "const mapStateToProps = (state: State, ownProps: $2Props) => ({",
+      "\tstore: {}\n})\n",
+      "const mapDispatchToProps = (dispatch: Dispatch, ownProps: $2Props) => ({",
+      "\tactions: bindActionCreators({}, dispatch)\n})\n",
+      "export type WrappedComponentProps = MergeMapAndDispatchProps<",
+      "\ttypeof mapStateToProps,",
+      "\ttypeof mapDispatchToProps",
+      ">\n",
+      "const WrappedComponent: typeof $2 = connect(",
+      "\tmapStateToProps,",
+      "\tmapDispatchToProps",
+      ")($2)\n",
+      "export default WrappedComponent"
+    ]
+}
 }
