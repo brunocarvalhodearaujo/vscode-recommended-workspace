@@ -78,6 +78,7 @@
     "ibm.output-colorizer",
     "kumar-harsh.graphql-for-vscode",
     "rtbenfield.vscode-jest-test-adapter",
-    "wallabyjs.quokka-vscode"
+    "wallabyjs.quokka-vscode",
+    "kisstkondoros.vscode-codemetrics"
   ]
 }
