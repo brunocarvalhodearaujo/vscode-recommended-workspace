@@ -8,14 +8,15 @@ VSCode recommended Workspace
 
 ````sh
 $ npm i -g standard \
-  eslint@3.x \
-  babel-eslint@7 \
-  eslint-plugin-flowtype
+  eslint \
+  babel-eslint \
+  eslint-plugin-flowtype \
   eslint-plugin-import \
   eslint-plugin-react \
   eslint-plugin-node \
   eslint-plugin-promise \
-  eslint-plugin-standard
+  eslint-plugin-standard \
+  @typescript-eslint/eslint-plugin
 ````
 
 ## Commands
