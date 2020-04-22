@@ -80,6 +80,7 @@
     "rtbenfield.vscode-jest-test-adapter",
     "wallabyjs.quokka-vscode",
     "kisstkondoros.vscode-codemetrics",
-    "mgmcdermott.vscode-language-babel"
+    "mgmcdermott.vscode-language-babel",
+    "snyk-security.vscode-vuln-cost"
   ]
 }
