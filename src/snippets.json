@@ -1,7 +1,7 @@
 {
   "License": {
     "prefix": "license",
-    "scope": "javascript,javascriptreact",
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
     "description": "create an basic license comment",
     "body": [
       "/**",
@@ -292,5 +292,5 @@
       ")($2)\n",
       "export default WrappedComponent"
     ]
-}
+  }
 }

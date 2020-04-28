@@ -1,110 +1,95 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.activeIconPack": "react_redux",
-    "files.autoSave": "onFocusChange",
-    "explorer.openEditors.visible": 0,
-    "debug.inlineValues": true,
-    "standard.validate": [
-        "javascript",
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-        }
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react_redux",
+  "files.autoSave": "onFocusChange",
+  "explorer.openEditors.visible": 0,
+  "debug.inlineValues": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ],
+  "standard.options": {
+    "plugins": [
+      "flowtype",
+      "import",
+      "react",
+      "promise",
+      "@typescript-eslint"
     ],
-    "standard.options": {
-        "plugins": [
-            "flowtype",
-            "import",
-            "react",
-            "promise",
-            "@typescript-eslint"
-        ],
-        "parser": "/usr/local/lib/node_modules/babel-eslint",
-        "envs": [
-            "jest",
-            "es6",
-            "node",
-            "browser"
-        ],
-        "globals": [
-            "RequestInit",
-            "__DEV__",
-            "ReturnType",
-            "Partial",
-            "ReactComponent",
-            "ReactElement",
-            "SyntheticEvent",
-            "SyntheticClipboardEvent",
-            "SyntheticCompositionEvent",
-            "SyntheticInputEvent",
-            "SyntheticUIEvent",
-            "SyntheticFocusEvent",
-            "SyntheticKeyboardEvent",
-            "SyntheticMouseEvent",
-            "SyntheticDragEvent",
-            "SyntheticWheelEvent",
-            "SyntheticTouchEvent"
-        ]
-    },
-    "editor.rulers": [
-        80,
-        120
+    "parser": "/usr/local/lib/node_modules/babel-eslint",
+    "envs": [
+      "jest",
+      "es6",
+      "node",
+      "browser"
     ],
-    "workbench.statusBar.visible": true,
-    "git.ignoreLegacyWarning": true,
-    "jsannotations.fontStyle": "normal",
-    "jsannotations.hideIfEqual": true,
-    "javascript.referencesCodeLens.enabled": false,
-    "files.associations": {
-        "yarn.lock": "yaml",
-        "*.prisma": "graphql",
-        "*.template": "nginx"
-    },
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "window.titleBarStyle": "custom",
-    "breadcrumbs.enabled": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "jsannotations.hideDiagnostics": true,
-    "gitflow.deleteBranchOnFinish": false,
-    "gitflow.deleteRemoteBranches": false,
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "workbench.activityBar.visible": true,
-    "javascript.implicitProjectConfig.checkJs": true,
-    "javascript.validate.enable": false,
-    "explorer.confirmDelete": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "typescript.preferences.quoteStyle": "single",
-    "javascript.preferences.quoteStyle": "single",
-    "terminal.integrated.fontWeightBold": "normal",
-    "window.zoomLevel": 0,
-    "explorer.confirmDragAndDrop": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.fontAliasing": "auto",
-    "terminal.integrated.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "extensions.ignoreRecommendations": false,
-    "sshfs.configs": [
-        {
-            "host": "123passei.com",
-            "name": "123passei.com",
-            "privateKeyPath": "/Users/brunocarvalhodearaujo/.ssh/id_rsa",
-            "root": "/home/bruno/123passei",
-            "username": "bruno"
-        }
-    ],
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "editor.renderWhitespace": "all",
-    "editor.tokenColorCustomizations": {
-        "[Default Dark+]": {
-            "semanticHighlighting": true
-        }
-    },
-    "editor.fontSize": 8,
-    "terminal.integrated.fontSize": 9
+    "globals": [
+      "RequestInit",
+      "__DEV__",
+      "ReturnType",
+      "Partial",
+      "ReactComponent",
+      "ReactElement",
+      "SyntheticEvent",
+      "SyntheticClipboardEvent",
+      "SyntheticCompositionEvent",
+      "SyntheticInputEvent",
+      "SyntheticUIEvent",
+      "SyntheticFocusEvent",
+      "SyntheticKeyboardEvent",
+      "SyntheticMouseEvent",
+      "SyntheticDragEvent",
+      "SyntheticWheelEvent",
+      "SyntheticTouchEvent"
+    ]
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "workbench.statusBar.visible": true,
+  "git.ignoreLegacyWarning": true,
+  "jsannotations.fontStyle": "normal",
+  "jsannotations.hideIfEqual": true,
+  "javascript.referencesCodeLens.enabled": false,
+  "files.associations": {
+    "yarn.lock": "yaml",
+    "*.prisma": "graphql",
+    "*.template": "nginx"
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "window.titleBarStyle": "custom",
+  "breadcrumbs.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "jsannotations.hideDiagnostics": true,
+  "gitflow.deleteBranchOnFinish": false,
+  "gitflow.deleteRemoteBranches": false,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "workbench.activityBar.visible": true,
+  "javascript.implicitProjectConfig.checkJs": true,
+  "javascript.validate.enable": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "terminal.integrated.fontWeightBold": "normal",
+  "window.zoomLevel": 0,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.fontAliasing": "auto",
+  "terminal.integrated.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "extensions.ignoreRecommendations": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.renderWhitespace": "all",
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "semanticHighlighting": true
+    }
+  },
+  "editor.fontSize": 8,
+  "terminal.integrated.fontSize": 9
 }

@@ -9,10 +9,9 @@ export default async function installReactMostUsedDependencies () {
     'styled-components'
   ].join(' ')
 
-  const exactVersion = await vscode.window.showQuickPick(
-    [ 'Yes', 'No' ],
-    { placeHolder: 'Install with exact version?' }
-  ) === 'Yes' ? '--save-exact' : ''
+  const exactVersion = await vscode.window.showQuickPick([ 'Yes', 'No' ], { placeHolder: 'Install with exact version?' }) === 'Yes'
+    ? '--save-exact'
+    : ''
 
   const terminal = vscode.window.createTerminal()
 

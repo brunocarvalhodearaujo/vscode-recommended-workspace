@@ -15,6 +15,6 @@ export default async function setConfigurations () {
 
     vscode.window.showInformationMessage('Success on apply recommended configurations!')
   } catch (error) {
-    console.log(error)
+    console.error(error)
   }
 }
