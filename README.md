@@ -29,6 +29,11 @@ $ npm i -g standard \
 > Recommended Workspace: Install React.js most used dependencies
 ````
 
+## Optional dependencies
+
+- [Vuln Cost](https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost)
+- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+
 ## References
 
 - [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)

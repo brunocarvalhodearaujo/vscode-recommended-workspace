@@ -13,8 +13,8 @@
       " */\n\n$0"
     ]
   },
-  "React base class component": {
-    "prefix": "react-base-component",
+  "React class component": {
+    "prefix": "react-component",
     "scope": "javascript,javascriptreact",
     "description": "create an basic react class component",
     "body": [
@@ -42,8 +42,8 @@
       "}\n$0"
     ]
   },
-  "React base functional component": {
-    "prefix": "react-base-functional-component",
+  "React functional component": {
+    "prefix": "react-functional-component",
     "scope": "javascript,javascriptreact",
     "description": "create an basic react class component",
     "body": [
@@ -68,20 +68,22 @@
       " * @since ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
       " * @link https://react-styleguidist.js.org/docs/documenting.html",
       " */",
-      "const ${2:$TM_FILENAME_BASE} = ({}: Props): ReactElement => (",
-      "\t<div>",
-      "\t\t<p>$2</p>",
-      "\t</div>",
-      ")\n$0",
+      "export default function ${2:$TM_FILENAME_BASE} (props: Props): ReactElement {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t<p>Open up $2.js to start working on your app!</p>",
+      "\t\t</div>",
+      "\t)",
+      "}\n$0",
       "${2:$TM_FILENAME_BASE}.propTypes = {",
       "\tchildren: PropTypes.element",
       "}\n$0",
-      "export default $2",
+      "${2:$TM_FILENAME_BASE}.defaultProps = {}",
       "$0"
     ]
   },
-  "React Native base class component": {
-    "prefix": "react-native-base-component",
+  "React Native class component": {
+    "prefix": "react-native-component",
     "scope": "javascript,javascriptreact",
     "description": "create an basic react native class component",
     "body": [
@@ -119,7 +121,7 @@
       "$0"
     ]
   },
-  "React Native base functional component": {
+  "React Native functional component": {
     "prefix": "react-native-functional-component",
     "scope": "javascript,javascriptreact",
     "description": "create an basic react native class component",
@@ -146,14 +148,17 @@
       " * @since ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR}",
       " * @link https://react-styleguidist.js.org/docs/documenting.html",
       " */",
-      "const ${2:$TM_FILENAME_BASE} = ({}: Props): ReactElement => (",
-      "\t<View style={styles.container}>",
-      "\t\t<Text>$2</Text>",
-      "\t</View>",
-      ")\n$0",
+      "export default function ${2:$TM_FILENAME_BASE} (props: Props): ReactElement {",
+      "\treturn (",
+      "\t\t<View style={styles.container}>",
+      "\t\t\t<Text>Open up $2.js to start working on your app!</Text>",
+      "\t\t</View>",
+      "\t)",
+      "}\n$0",
       "${2:$TM_FILENAME_BASE}.propTypes = {",
       "\tchildren: PropTypes.element",
       "}\n$0",
+      "${2:$TM_FILENAME_BASE}.defaultProps = {}\n$0",
       "const styles = StyleSheet.create({",
       "\tcontainer: {",
       "\t\tflex: 1,",

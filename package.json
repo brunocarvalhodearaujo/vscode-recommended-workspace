@@ -89,7 +89,6 @@
     "wallabyjs.quokka-vscode",
     "kisstkondoros.vscode-codemetrics",
     "mgmcdermott.vscode-language-babel",
-    "snyk-security.vscode-vuln-cost",
     "vincaslt.highlight-matching-tag",
     "oderwat.indent-rainbow"
   ]
